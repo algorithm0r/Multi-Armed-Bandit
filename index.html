@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-Armed Bandit Simulation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Multi-Armed Bandit Simulation</h1>
+    <div class="bandit-container">
+        <div id="reward-message"></div>
+        <div id="total-reward">Total Reward: $0</div>
+        <div id="total-cost">Total Cost: $0</div>
+        <div id="stats-container">
+            <div class="arm-stats">
+                <div class="stat" id="arm1-pulls">Pulls: 0</div>
+                <div class="stat" id="arm1-rewards">Rewards: 0</div>
+                <div class="stat" id="arm1-reward-percent">Reward Chance: 0%</div>
+                <div class="stat" id="arm1-average-reward">Average Reward: 0.0</div>
+                <div class="stat" id="arm1-expected-reward">Expected Reward: 0.0</div>
+                <button class="bandit-arm" onclick="pullArm(0)">Arm 1</button>
+            </div>
+            <div class="arm-stats">
+                <div class="stat" id="arm2-pulls">Pulls: 0</div>
+                <div class="stat" id="arm2-rewards">Rewards: 0</div>
+                <div class="stat" id="arm2-reward-percent">Reward Chance: 0%</div>
+                <div class="stat" id="arm2-average-reward">Average Reward: 0.0</div>
+                <div class="stat" id="arm2-expected-reward">Expected Reward: 0.0</div>
+                <button class="bandit-arm" onclick="pullArm(1)">Arm 2</button>
+            </div>
+            <div class="arm-stats">
+                <div class="stat" id="arm3-pulls">Pulls: 0</div>
+                <div class="stat" id="arm3-rewards">Rewards: 0</div>
+                <div class="stat" id="arm3-reward-percent">Reward Chance: 0%</div>
+                <div class="stat" id="arm3-average-reward">Average Reward: 0.0</div>
+                <div class="stat" id="arm3-expected-reward">Expected Reward: 0.0</div>
+                <button class="bandit-arm" onclick="pullArm(2)">Arm 3</button>
+            </div>
+            <div class="arm-stats">
+                <div class="stat" id="arm4-pulls">Pulls: 0</div>
+                <div class="stat" id="arm4-rewards">Rewards: 0</div>
+                <div class="stat" id="arm4-reward-percent">Reward Chance: 0%</div>
+                <div class="stat" id="arm4-average-reward">Average Reward: 0.0</div>
+                <div class="stat" id="arm4-expected-reward">Expected Reward: 0.0</div>
+                <button class="bandit-arm" onclick="pullArm(3)">Arm 4</button>
+            </div>
+            <div class="arm-stats">
+                <div class="stat" id="arm5-pulls">Pulls: 0</div>
+                <div class="stat" id="arm5-rewards">Rewards: 0</div>
+                <div class="stat" id="arm5-reward-percent">Reward Chance: 0%</div>
+                <div class="stat" id="arm5-average-reward">Average Reward: 0.0</div>
+                <div class="stat" id="arm5-expected-reward">Expected Reward: 0.0</div>
+                <button class="bandit-arm" onclick="pullArm(4)">Arm 5</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.bandit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.bandit-arm {
+  border-radius: 10px;
+  background-color: lightskyblue;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+#reward-message {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#total-reward {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#stats-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.arm-stats {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.arm-stats div {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+  margin-bottom: 5px;
+}
